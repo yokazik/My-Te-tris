@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="37c6e27c-e410-4807-b201-634b8fea9693" name="Default" comment="">
+      <change afterPath="$APPLICATION_CONFIG_DIR$/options/markdown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My(Tet)ris.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My(Tet)ris/com/company/TetrisMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/TetrisMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WeatherApp/src/main/java/com/javadevmateo/WeatherApp/view/MainView.java" afterDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__cglib_cglib_nodep_2_2_2.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_9.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_9.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_9.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_google_guava_guava_25_0_jre.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_google_gwt_gwt_elemental_2_8_0.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_helger_ph_commons_9_1_2.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_helger_ph_css_6_1_1.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_10_0.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_squareup_okio_okio_1_14_1.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_external_atmosphere_atmosphere_runtime_2_4_30_slf4jvaadin1.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_external_gentyref_1_2_0_vaadin1.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_external_gwt_gwt_elemental_2_8_2_vaadin2.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_flow_client_2_0_7.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_flow_data_2_0_7.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_flow_html_components_2_0_7.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_flow_html_components_testbench_2_0_7.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_flow_push_2_0_7.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_flow_server_2_0_7.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_license_checker_1_0_0.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_14_0_0.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_accordion_flow_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_accordion_testbench_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_app_layout_flow_2_0_1.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_app_layout_testbench_2_0_1.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_board_flow_3_0_0.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_board_testbench_3_0_0.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_button_flow_2_0_1.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_button_testbench_2_0_1.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_charts_flow_7_0_1.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_charts_testbench_7_0_1.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_checkbox_flow_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_checkbox_testbench_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_combo_box_flow_3_0_2.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_combo_box_testbench_3_0_2.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_confirm_dialog_flow_2_0_1.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_confirm_dialog_testbench_2_0_1.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_context_menu_flow_3_0_2.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_context_menu_testbench_3_0_2.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_cookie_consent_flow_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_cookie_consent_testbench_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_core_14_0_0.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_crud_flow_2_0_1.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_crud_testbench_2_0_1.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_custom_field_flow_3_0_1.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_custom_field_testbench_3_0_1.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_date_picker_flow_2_0_2.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_date_picker_testbench_2_0_2.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_details_flow_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_details_testbench_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_dialog_flow_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_dialog_testbench_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_form_layout_flow_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_form_layout_testbench_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_grid_flow_4_0_4.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_grid_pro_flow_2_0_1.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_grid_pro_testbench_2_0_1.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_grid_testbench_4_0_4.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_icons_flow_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_icons_testbench_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_iron_list_flow_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_iron_list_testbench_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_list_box_flow_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_list_box_testbench_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_login_flow_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_login_testbench_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_lumo_theme_2_0_7.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_material_theme_2_0_7.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_menu_bar_flow_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_menu_bar_testbench_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_notification_flow_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_notification_testbench_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_ordered_layout_flow_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_ordered_layout_testbench_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_progress_bar_flow_2_0_1.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_progress_bar_testbench_2_0_1.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_radio_button_flow_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_radio_button_testbench_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_rich_text_editor_flow_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_rich_text_editor_testbench_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_select_flow_2_0_1.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_select_testbench_2_0_1.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_split_layout_flow_2_0_1.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_split_layout_testbench_2_0_1.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_spring_12_0_3.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_spring_boot_starter_14_0_0.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_tabs_flow_2_0_2.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_tabs_testbench_2_0_2.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_testbench_14_0_0.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_testbench_core_6_2_0.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_text_field_flow_2_0_2.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_text_field_testbench_2_0_2.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_time_picker_flow_2_0_1.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_time_picker_testbench_2_0_1.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_upload_flow_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__com_vaadin_vaadin_upload_testbench_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_3.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_16.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_9.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_11.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_22.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_22.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_22.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__org_easymock_easymock_3_1.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_17_Final.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__org_jsoup_jsoup_1_11_3.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__org_objenesis_objenesis_1_2.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_14_0.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_14_0.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_14_0.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_14_0.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_14_0.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_14_0.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_14_0.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_14_0.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_14_0.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_14_0.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__org_springframework_spring_beans_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__org_springframework_spring_context_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__org_springframework_spring_core_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__org_springframework_spring_expression_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__org_springframework_spring_web_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__org_springframework_spring_websocket_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__org_webjars_bowergithub_polymer_polymer_2_7_0.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__org_webjars_bowergithub_vaadin_vaadin_development_mode_detector_2_0_4.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__org_webjars_bowergithub_vaadin_vaadin_element_mixin_2_1_3.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__org_webjars_bowergithub_vaadin_vaadin_usage_statistics_2_0_4.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__org_webjars_bowergithub_webcomponents_shadycss_1_8_0.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__org_webjars_bowergithub_webcomponents_webcomponentsjs_1_2_6.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__org_webjars_npm_mobile_drag_drop_2_3_0_rc_1.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__org_webjars_npm_vaadin__vaadin_mobile_drag_drop_1_0_0.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/libraries/NodeJS_192_6262.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/my-starter-project.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WeatherApp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WeatherApp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WeatherApp/src/main/java/com/javadevmateo/WeatherApp/WeatherAppApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WeatherApp/src/main/java/com/javadevmateo/WeatherApp/WeatherAppApplication.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="TetrisMain.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/TetrisMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="63" column="28" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/company/TetrisMain.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="324" />
+    <option name="y" value="-10" />
+    <option name="width" value="1362" />
+    <option name="height" value="1026" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="My(Tet)ris" type="b2602c69:ProjectViewProjectNode" />
+              <item name="My(Tet)ris" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="My(Tet)ris" type="b2602c69:ProjectViewProjectNode" />
+              <item name="My(Tet)ris" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="My(Tet)ris" type="b2602c69:ProjectViewProjectNode" />
+              <item name="My(Tet)ris" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.TetrisMain" />
+      <module name="My(Tet)ris" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="37c6e27c-e410-4807-b201-634b8fea9693" name="Default" comment="" />
+      <created>1568279913589</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568279913589</updated>
+      <workItem from="1568279915421" duration="2452000" />
+      <workItem from="1569220373955" duration="2158000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4610000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49963635" weight="0.32845894" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50076807" side_tool="true" weight="0.41143498" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4989339" weight="0.3295838" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49672726" weight="0.32752994" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4989339" visible="true" weight="0.32861805" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3640725" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49923196" weight="0.1721035" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="4" />
+    </breakpoint-manager>
+  </component>
+  <component name="com.vaadin.designer2.intellij.settings.SizePresetsSettingsComponent">
+    <option name="sizePresets">
+      <list>
+        <SizePreset>
+          <option name="caption" value="Phone" />
+          <option name="height" value="568" />
+          <option name="width" value="320" />
+        </SizePreset>
+        <SizePreset>
+          <option name="caption" value="Tablet" />
+          <option name="height" value="1024" />
+          <option name="width" value="768" />
+        </SizePreset>
+        <SizePreset>
+          <option name="caption" value="Desktop" />
+          <option name="height" value="900" />
+          <option name="width" value="1440" />
+        </SizePreset>
+      </list>
+    </option>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/company/TetrisMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="63" column="34" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharedrepo/file1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sharedrepo/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/TetrisMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="63" column="28" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
