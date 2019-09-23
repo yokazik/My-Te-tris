@@ -89,31 +89,3 @@ public class TetrisMain extends Canvas implements Runnable, KeyListener {
 }
 
 
-
-    public void render(Graphics2D g){
-        g.setColor(Color.BLACK);
-        g.fillRect(0,0, WIDTH, HEIGHT);
-        g.setColor(Color.WHITE);
-        g.setFont(new Font("Calibri", Font.PLAIN, 20));
-        g.drawString("My(Te)tris", 170,50);
-
-
-    }
-    public void render(Graphics2D g){
-        g.setColor(Color.BLACK);
-        g.fillRect(0,0, WIDTH, HEIGHT);
-        g.setColor(Color.WHITE);
-        g.setFont(new Font("Calibri", Font.PLAIN, 20));
-        g.drawString("My(Te)tris", 170,50);
-
-
-    }
-    public void render(Graphics2D g){
-        g.setColor(Color.BLACK);
-        g.fillRect(0,0, WIDTH, HEIGHT);
-        g.setColor(Color.WHITE);
-        g.setFont(new Font("Calibri", Font.PLAIN, 20));
-        g.drawString("My(Te)tris", 170,50);
-
-
-    }
