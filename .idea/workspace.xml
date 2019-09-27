@@ -235,13 +235,14 @@
       <file leaf-file-name="Config.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Config.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="95" column="5" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
+            <state relative-caret-position="468">
+              <caret line="126" column="5" lean-forward="true" selection-start-line="126" selection-start-column="5" selection-end-line="126" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1216#1408#0" expanded="true" />
                 <element signature="e#1407#1408#0" expanded="true" />
                 <element signature="e#2471#2479#0" expanded="true" />
+                <element signature="e#3128#3144#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -360,12 +361,12 @@
       <workItem from="1568279915421" duration="2452000" />
       <workItem from="1569220373955" duration="4701000" />
       <workItem from="1569311244597" duration="9827000" />
-      <workItem from="1569572236305" duration="1259000" />
+      <workItem from="1569572236305" duration="3246000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18239000" />
+    <option name="totallyTimeSpent" value="20226000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -464,6 +465,7 @@
             <element signature="e#1216#1408#0" expanded="true" />
             <element signature="e#1407#1408#0" expanded="true" />
             <element signature="e#2471#2479#0" expanded="true" />
+            <element signature="e#3128#3144#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -512,13 +514,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Config.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="95" column="5" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
+        <state relative-caret-position="468">
+          <caret line="126" column="5" lean-forward="true" selection-start-line="126" selection-start-column="5" selection-end-line="126" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1216#1408#0" expanded="true" />
             <element signature="e#1407#1408#0" expanded="true" />
             <element signature="e#2471#2479#0" expanded="true" />
+            <element signature="e#3128#3144#0" expanded="true" />
           </folding>
         </state>
       </provider>

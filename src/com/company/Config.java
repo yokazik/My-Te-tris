@@ -5,7 +5,10 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
+import java.io.PrintWriter;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Scanner;
 
 public class Config {
 
@@ -92,10 +95,38 @@ public class Config {
         File config = new File(getDefaultDirectory(), "/My(Tet)ris/config.txt");
         if (!config.exists()) {
             config.createNewFile();
+            System.out.println("File not found, saving defaults");
             saveConfig();
             return;
         }
+        Scanner s = new Scanner(config);
+        HashMap<String, String> values = new HashMap<String, String>();
+        while (s.hasNextLine()) {
+            String[] entry = s.nextLine().split(":");
+            String key = entry[0];
+            String value = entry[1];
+            values.put(key, value);
+        }
+        if (values.size() != 5) {
+            System.out.println("Config is not correct, saving defaults");
+            saveConfig();
+            return;
+        }
+        if (!values.containsKey("left") || !values.containsKey("right") || !values.containsKey("rotate")
+                || !values.containsKey("down") || !values.containsKey("pause")){
+        System.out.println("Wrong names, saving default names");
+        saveConfig();
+        return;
+        }
+        String left = values.get("left");
+        String right = values.get("right");
+        String rotate = values.get("rotate");
+        String down = values.get("down");
+        String pause = values.get("pause");
+
     }
+
+
 
 
     public static void saveConfig() throws Exception{
@@ -103,6 +134,13 @@ public class Config {
         if(!config.exists()){
             config.createNewFile();
         }
+        PrintWriter pw = new PrintWriter(config);
+        pw.println("right:" + right);
+        pw.println("left:" + left);
+        pw.println("rotate:" + rotate);
+        pw.println("down:" + down);
+        pw.println("pause:" + pause);
+        pw.close();
 
     }
 
