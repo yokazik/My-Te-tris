@@ -1,6 +1,5 @@
 package com.company;
 
-import javax.management.JMException;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -8,6 +7,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.awt.image.BufferStrategy;
+import java.sql.Connection;
 
 public class TetrisMain extends Canvas implements Runnable, KeyListener {
 
@@ -18,7 +18,7 @@ public class TetrisMain extends Canvas implements Runnable, KeyListener {
 
         //creating Tetris main table, incl. size and closing method
 
-        JFrame frame = new JFrame("My(Tet)ris");
+        final JFrame frame = new JFrame("My(Tet)ris");
         frame.setSize(WIDTH,HEIGHT);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLocationRelativeTo(null);
@@ -58,6 +58,7 @@ public class TetrisMain extends Canvas implements Runnable, KeyListener {
                 alert.setSize(200, 150);
                 alert.setLayout(null);
                 alert.setLocationRelativeTo(null);
+                alert.setAlwaysOnTop(true);
 
                 JLabel score = new JLabel("The highscore is " + highscore);
                 score.setBounds(0, 0, 200, 50);
@@ -95,6 +96,15 @@ public class TetrisMain extends Canvas implements Runnable, KeyListener {
 
 
 
+        JMenuItem options = new JMenuItem("Options");
+        options.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                Config.openConfig(frame);
+            }
+        });
+
+
 
 
 
@@ -105,6 +115,7 @@ public class TetrisMain extends Canvas implements Runnable, KeyListener {
         frame.add(tm);
         file.add(newGame);
         file.add(highscore);
+        file.add(options);
         file.add(exit);
         bar.add(file);
         frame.add(bar);
