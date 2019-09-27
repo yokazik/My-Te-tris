@@ -4,6 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.File;
 import java.util.ArrayList;
 
 public class Config {
@@ -84,5 +85,35 @@ public class Config {
             }
         }
         return result;
+    }
+
+
+    public static void loadConfig() throws Exception {
+        File config = new File(getDefaultDirectory(), "/My(Tet)ris/config.txt");
+        if (!config.exists()) {
+            config.createNewFile();
+            saveConfig();
+            return;
+        }
+    }
+
+
+    public static void saveConfig() throws Exception{
+        File config = new File(getDefaultDirectory(), "/My(Tet)ris/config.txt");
+        if(!config.exists()){
+            config.createNewFile();
+        }
+
+    }
+
+    public static String getDefaultDirectory(){
+        String OS = System.getProperty("os.name");
+        if(OS.contains("WIN")){
+            return System.getenv("APPDATA");
+        }
+        if (OS.contains("MAC")){
+            return System.getProperty("user.home") + "Library/Application Support";
+        }
+        return System.getProperty("user.home");
     }
 }

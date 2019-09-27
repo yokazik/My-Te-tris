@@ -12,7 +12,6 @@
       <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/My(Tet)ris.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/My(Tet)ris/com/company/TetrisMain.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Config.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/company/TetrisMain.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../WeatherApp/src/main/java/com/javadevmateo/WeatherApp/view/MainView.java" afterDir="false" />
       <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/compiler.xml" beforeDir="false" />
@@ -192,14 +191,7 @@
       <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$USER_HOME$/Desktop/my-starter-project/my-starter-project/my-starter-project/my-starter-project.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/My(Tet)ris/com/company/KeyGetter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/My(Tet)ris/com/company/KeyGetter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/My(Tet)ris/com/company/TetrisMain$2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/My(Tet)ris/com/company/TetrisMain$2$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/My(Tet)ris/com/company/TetrisMain$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/My(Tet)ris/com/company/TetrisMain$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/My(Tet)ris/com/company/TetrisMain$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/My(Tet)ris/com/company/TetrisMain$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/My(Tet)ris/com/company/TetrisMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/My(Tet)ris/com/company/TetrisMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/KeyGetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/KeyGetter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/TetrisMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/TetrisMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Config.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WeatherApp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WeatherApp/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WeatherApp/src/main/java/com/javadevmateo/WeatherApp/WeatherAppApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WeatherApp/src/main/java/com/javadevmateo/WeatherApp/WeatherAppApplication.java" afterDir="false" />
     </list>
@@ -228,7 +220,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KeyGetter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="KeyGetter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/KeyGetter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="442">
@@ -240,13 +232,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Config.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Config.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Config.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+            <state relative-caret-position="230">
+              <caret line="95" column="5" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1216#1408#0" expanded="true" />
+                <element signature="e#1407#1408#0" expanded="true" />
+                <element signature="e#2471#2479#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -365,12 +360,12 @@
       <workItem from="1568279915421" duration="2452000" />
       <workItem from="1569220373955" duration="4701000" />
       <workItem from="1569311244597" duration="9827000" />
-      <workItem from="1569572236305" duration="84000" />
+      <workItem from="1569572236305" duration="1259000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17064000" />
+    <option name="totallyTimeSpent" value="18239000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -378,15 +373,16 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49963635" weight="0.32752994" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50076807" side_tool="true" weight="0.41143498" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4989339" weight="0.32861805" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49672726" weight="0.32752994" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4989339" weight="0.32861805" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4989339" weight="0.32861805" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49672726" visible="true" weight="0.32752994" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4989339" weight="0.32861805" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.37260127" />
@@ -404,7 +400,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49963635" weight="0.32752994" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -466,6 +461,9 @@
           <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1216#1408#0" expanded="true" />
+            <element signature="e#1407#1408#0" expanded="true" />
+            <element signature="e#2471#2479#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -502,22 +500,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/KeyGetter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="95" column="5" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1216#1408#0" expanded="true" />
+            <element signature="e#1407#1408#0" expanded="true" />
+            <element signature="e#2471#2479#0" expanded="true" />
           </folding>
         </state>
       </provider>
