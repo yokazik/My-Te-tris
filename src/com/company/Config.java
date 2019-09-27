@@ -124,10 +124,18 @@ public class Config {
         String down = values.get("down");
         String pause = values.get("pause");
 
+        if (!(getKeyNames().contains(left) && getKeyNames().contains(right)
+                && getKeyNames().contains(rotate) && getKeyNames().contains(down) && getKeyNames().contains(pause))){
+            System.out.println("One of the keys is invalid, saving defaults");
+            return;
+        }
+        Config.left = left;
+        Config.right = right;
+        Config.rotate = rotate;
+        Config.down = down;
+        Config.pause = pause;
+
     }
-
-
-
 
     public static void saveConfig() throws Exception{
         File config = new File(getDefaultDirectory(), "/My(Tet)ris/config.txt");
