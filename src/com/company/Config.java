@@ -129,6 +129,7 @@ public class Config {
 
 
 
+
     public static void saveConfig() throws Exception{
         File config = new File(getDefaultDirectory(), "/My(Tet)ris/config.txt");
         if(!config.exists()){
