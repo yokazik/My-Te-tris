@@ -7,7 +7,6 @@ import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.awt.image.BufferStrategy;
-import java.sql.Connection;
 
 public class TetrisMain extends Canvas implements Runnable, KeyListener {
 
