@@ -154,7 +154,7 @@ public class TetrisMain extends Canvas implements Runnable, KeyListener {
     public void init(){
         requestFocus();
         try {
-            tetrisBlocks = ImageLoader.loadImage("/tetris.jpg",25);
+            tetrisBlocks = ImageLoader.loadImage("tetris.jpg",25);
         } catch (IOException e) {
             System.out.println("Error loading tetris.jpg");
             System.exit(1);
