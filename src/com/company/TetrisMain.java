@@ -169,12 +169,12 @@ public class TetrisMain extends Canvas implements Runnable, KeyListener {
 
 
     public void render(Graphics2D g){
-        g.setColor(Color.BLACK);
+        g.setColor(Color.GREEN);  // change board background color
         g.fillRect(0,0, WIDTH, HEIGHT);
         g.setColor(Color.WHITE);
         g.setFont(new Font("Calibri", Font.PLAIN, 20));
         g.drawString("My(Te)tris", 170,50);
-        g.drawImage(tetrisBlocks[0],100,100,25,25,null);
+        g.drawImage(tetrisBlocks[6],100,100,25,25,null); //change 1st [] 0-6 to change 1 block color
 
 
     }

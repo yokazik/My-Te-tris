@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37c6e27c-e410-4807-b201-634b8fea9693" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/res.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My(Tet)ris.iml" beforeDir="false" afterPath="$PROJECT_DIR$/My(Tet)ris.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/My(Tet)ris/com/company/ImageLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/My(Tet)ris/com/company/ImageLoader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/My(Tet)ris/com/company/TetrisMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/My(Tet)ris/com/company/TetrisMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/My(Tet)ris/com/company/tetris.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/My(Tet)ris/res/tetris.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/ImageLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ImageLoader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/TetrisMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/TetrisMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/tetris.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/tetris.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/tetris.jpg" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,8 +61,8 @@
       <file leaf-file-name="TetrisMain.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/TetrisMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="156" column="64" selection-start-line="156" selection-start-column="64" selection-end-line="156" selection-end-column="64" />
+            <state relative-caret-position="293">
+              <caret line="166" column="5" lean-forward="true" selection-start-line="166" selection-start-column="5" selection-end-line="166" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1103#1325#0" expanded="true" />
@@ -82,8 +83,20 @@
       <file leaf-file-name="ImageLoader.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/ImageLoader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="187">
+              <caret line="11" column="72" selection-start-line="11" selection-start-column="72" selection-end-line="11" selection-end-column="72" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Config.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Config.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -157,17 +170,6 @@
               <item name="My(Tet)ris" type="b2602c69:ProjectViewProjectNode" />
               <item name="My(Tet)ris" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="My(Tet)ris" type="b2602c69:ProjectViewProjectNode" />
-              <item name="My(Tet)ris" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="My(Tet)ris" type="b2602c69:ProjectViewProjectNode" />
-              <item name="My(Tet)ris" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -180,18 +182,19 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569895194895" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/res" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.48033708" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Code\IdeaProjects\My(Tet)ris" />
       <recent name="C:\Users\Code\IdeaProjects\My(Tet)ris\src\com\company" />
       <recent name="C:\Users\Code\IdeaProjects\My(Tet)ris\src\res" />
       <recent name="C:\Users\Code\IdeaProjects\My(Tet)ris\src" />
       <recent name="C:\My-Te-tris_neww\res" />
-      <recent name="C:\My-Te-tris_neww\src\com\company" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -238,12 +241,12 @@
       <workItem from="1569944685001" duration="5597000" />
       <workItem from="1570437323211" duration="163000" />
       <workItem from="1570440256316" duration="263000" />
-      <workItem from="1570520210060" duration="3093000" />
+      <workItem from="1570520210060" duration="4736000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32808000" />
+    <option name="totallyTimeSpent" value="34451000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -265,6 +268,7 @@
       <window_info id="Designer" order="3" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.38965884" />
       <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3297062" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -277,7 +281,6 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
@@ -585,16 +588,6 @@
     <entry file="file://$PROJECT_DIR$/src/com/company/tetris.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/KeyGetter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -612,10 +605,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/ImageLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="187">
+          <caret line="11" column="72" selection-start-line="11" selection-start-column="72" selection-end-line="11" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -624,8 +627,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/TetrisMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="156" column="64" selection-start-line="156" selection-start-column="64" selection-end-line="156" selection-end-column="64" />
+        <state relative-caret-position="293">
+          <caret line="166" column="5" lean-forward="true" selection-start-line="166" selection-start-column="5" selection-end-line="166" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1103#1325#0" expanded="true" />
@@ -707,10 +710,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>res</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.48033708" />
               </list>
             </option>
           </splitter-proportions>

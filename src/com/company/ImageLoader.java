@@ -9,7 +9,7 @@ import java.io.IOException;
 public class ImageLoader {
 
     public static  Image[] loadImage(String path, int width) throws IOException {
-        BufferedImage load = ImageIO.read(new File("C:/Users/Code/IdeaProjects/My(Tet)ris/src/res/tetris.jpg"));
+        BufferedImage load = ImageIO.read(ImageLoader.class.getResource(path));
         Image[] images = new Image[load.getWidth() /width ];
         for (int i = 0; i < images.length; i++) {
             images[i] = load.getSubimage(i * width,0, width, width);
