@@ -9,7 +9,7 @@ import java.awt.event.KeyListener;
 import java.awt.image.BufferStrategy;
 import java.io.IOException;
 
-public class TetrisMain extends Canvas implements Runnable, KeyListener {
+public class TetrisMain extends Canvas implements Runnable{
 
     public static final int WIDTH = 400, HEIGHT = 565;
     private Image[] tetrisBlocks;
@@ -20,7 +20,7 @@ public class TetrisMain extends Canvas implements Runnable, KeyListener {
         //creating Tetris main table, incl. size and closing method
 
         final JFrame frame = new JFrame("My(Tet)ris");
-        frame.setSize(WIDTH,HEIGHT);
+        frame.setSize(WIDTH, HEIGHT);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLocationRelativeTo(null);
         frame.setResizable(false);
@@ -33,10 +33,8 @@ public class TetrisMain extends Canvas implements Runnable, KeyListener {
         bar.setBounds(0, 0, WIDTH - 20, 25);
 
 
-
-
         JMenu file = new JMenu("File");
-        file.setBounds(0, 0,45, 24 );
+        file.setBounds(0, 0, 45, 24);
 
         JMenuItem newGame = new JMenuItem("New Game");
         newGame.addActionListener(new ActionListener() {
@@ -63,7 +61,6 @@ public class TetrisMain extends Canvas implements Runnable, KeyListener {
 
                 JLabel score = new JLabel("The highscore is " + highscore);
                 score.setBounds(0, 0, 200, 50);
-
 
 
                 JButton okButton = new JButton("OK");
@@ -96,7 +93,6 @@ public class TetrisMain extends Canvas implements Runnable, KeyListener {
         });
 
 
-
         JMenuItem options = new JMenuItem("Options");
         options.addActionListener(new ActionListener() {
             @Override
@@ -106,12 +102,8 @@ public class TetrisMain extends Canvas implements Runnable, KeyListener {
         });
 
 
-
-
-
-
         TetrisMain tm = new TetrisMain();
-        tm.setBounds(0,25, WIDTH, HEIGHT -25);
+        tm.setBounds(0, 25, WIDTH, HEIGHT - 25);
 
         frame.add(tm);
         file.add(newGame);
@@ -126,78 +118,61 @@ public class TetrisMain extends Canvas implements Runnable, KeyListener {
 
     }
 
-    public void start(){
+    public void start() {
         Thread t = new Thread(this);
         t.setPriority(Thread.MAX_PRIORITY);
         t.start();
 
     }
 
-    public void run(){
+    public void run() {
         init();
         boolean running = true;
-        while(running){
+        while (running) {
             update();
             BufferStrategy buf = getBufferStrategy();
-            if(buf == null){
+            if (buf == null) {
                 createBufferStrategy(3);
                 continue;
 
             }
-            Graphics2D g = (Graphics2D) buf. getDrawGraphics();
+            Graphics2D g = (Graphics2D) buf.getDrawGraphics();
             render(g);
             buf.show();
             buf.show();
         }
     }
 
-    public void init(){
+    public void init() {
+        this.addKeyListener(new Controller(this));
         requestFocus();
         try {
-            tetrisBlocks = ImageLoader.loadImage("tetris.jpg",25);
+            tetrisBlocks = ImageLoader.loadImage("tetris.jpg", 25);
         } catch (IOException e) {
             System.out.println("Error loading tetris.jpg");
             System.exit(1);
         }
-}
+    }
 
 
-    public void update(){
+    public void update() {
 
     }
 
 
-
-    public void render(Graphics2D g){
+    public void render(Graphics2D g) {
         g.setColor(Color.GREEN);  // change board background color
-        g.fillRect(0,0, WIDTH, HEIGHT);
+        g.fillRect(0, 0, WIDTH, HEIGHT);
         g.setColor(Color.WHITE);
         g.setFont(new Font("Calibri", Font.PLAIN, 20));
-        g.drawString("My(Te)tris", 170,50);
-        g.drawImage(tetrisBlocks[6],100,100,25,25,null); //change 1st [] 0-6 to change 1 block color
+        g.drawString("My(Te)tris", 170, 50);
+        g.drawImage(tetrisBlocks[4], 100, 100, 25, 25, null); //change 1st [] 0-6 to change 1 block color
 
 
     }
-
-
-
-    // implementing keyboard keys reactions
-    @Override
-    public void keyTyped(KeyEvent e) {
-
-    }
-
-    @Override
-    public void keyPressed(KeyEvent e) {
-
-    }
-
-    @Override
-    public void keyReleased(KeyEvent e) {
-
-    }
-
 
 }
+
+
 
 
