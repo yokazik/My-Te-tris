@@ -60,6 +60,11 @@ public class Config {
         Config.down = down.getSelectedItem();
         Config.rotate = rotate.getSelectedItem();
         Config.pause = pause.getSelectedItem();
+        try {
+            saveConfig();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     public static Choice addChoice(String name, JFrame options, int x, int y) {
@@ -92,7 +97,13 @@ public class Config {
 
 
     public static void loadConfig() throws Exception {
-        File config = new File(getDefaultDirectory(), "/My(Tet)ris/config.txt");
+        File directory = new File(getDefaultDirectory(),"/Tetris");
+        System.out.println("load conf");
+        if (!directory.exists()) {
+            directory.mkdirs();
+        }
+
+        File config = new File(directory, "/config.txt");
         if (!config.exists()) {
             config.createNewFile();
             System.out.println("File not found, saving defaults");
@@ -116,7 +127,7 @@ public class Config {
                 || !values.containsKey("down") || !values.containsKey("pause")){
         System.out.println("Wrong names, saving default names");
         saveConfig();
-        return;
+            return;
         }
         String left = values.get("left");
         String right = values.get("right");
@@ -134,12 +145,20 @@ public class Config {
         Config.rotate = rotate;
         Config.down = down;
         Config.pause = pause;
+        s.close();
 
     }
 
 
     public static void saveConfig() throws Exception{
-        File config = new File(getDefaultDirectory(), "/My(Tet)ris/config.txt");
+        File directory = new File(getDefaultDirectory(),"/Tetris");
+                System.out.println("save conf");
+
+        if (!directory.exists()){
+            directory.mkdirs();
+        }
+
+        File config = new File(directory, "/config.txt");
         if(!config.exists()){
             config.createNewFile();
         }
@@ -152,6 +171,7 @@ public class Config {
         pw.close();
 
     }
+
 
     public static String getDefaultDirectory(){
         String OS = System.getProperty("os.name");

@@ -6,6 +6,9 @@ import java.awt.event.KeyListener;
 public class Controller implements KeyListener {
 
    TetrisMain game;
+   public boolean left, right, down, rotate, pause;
+
+
    public Controller(TetrisMain game) {
        this.game = game;
        }
@@ -16,30 +19,55 @@ public class Controller implements KeyListener {
        public void keyPressed (KeyEvent e){
 
                 if (KeyEvent.getKeyText(e.getKeyCode()).equals(Config.left)){
-                System.out.println("left pressed");
+                left = true;
                 }
                 else if (KeyEvent.getKeyText(e.getKeyCode()).equals(Config.right)){
-                System.out.println("right pressed");
+                right = true;
+
                 }
                 else if (KeyEvent.getKeyText(e.getKeyCode()).equals(Config.rotate)){
-                System.out.println("rotate pressed");
+                rotate = true;
+
                 }
                 else if (KeyEvent.getKeyText(e.getKeyCode()).equals(Config.down)){
-                System.out.println("down pressed");
+                down = true;
+
                 }
                 else if (KeyEvent.getKeyText(e.getKeyCode()).equals(Config.pause)){
-                System.out.println("pause pressed");
+                pause = true;
+
+                }
+   }
+
+       public void keyTyped (KeyEvent e){
+
+                 if (KeyEvent.getKeyText(e.getKeyCode()).equals(Config.pause)) {
+
+
+                }
+   }
+
+       public void keyReleased (KeyEvent e) {
+
+                if (KeyEvent.getKeyText(e.getKeyCode()).equals(Config.left)){
+                left = false;
+                }
+                else if (KeyEvent.getKeyText(e.getKeyCode()).equals(Config.right)){
+                right = false;
+
+                }
+                else if (KeyEvent.getKeyText(e.getKeyCode()).equals(Config.rotate)){
+                rotate = false;
+
+                }
+                else if (KeyEvent.getKeyText(e.getKeyCode()).equals(Config.down)){
+                down = false;
+
+                }
+                else if (KeyEvent.getKeyText(e.getKeyCode()).equals(Config.pause)){
+                pause = false;
+
                 }
             }
 
-       public void keyTyped (KeyEvent e){
-       if (KeyEvent.getKeyText(e.getKeyCode()).equals(Config.pause)) {
-           System.out.println("P pressed");
-
-       }
-
-       }
-
-       public void keyReleased (KeyEvent e) {
-       }
 }

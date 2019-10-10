@@ -4,8 +4,6 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
 import java.awt.image.BufferStrategy;
 import java.io.IOException;
 
@@ -13,6 +11,8 @@ public class TetrisMain extends Canvas implements Runnable{
 
     public static final int WIDTH = 400, HEIGHT = 565;
     private Image[] tetrisBlocks;
+    Controller control;
+
 
 
     public static void main(String[] args) {
@@ -27,6 +27,12 @@ public class TetrisMain extends Canvas implements Runnable{
         frame.setLayout(null);
 
         KeyGetter.loadKeys();
+        try {
+            Config.loadConfig();
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
 
         JMenuBar bar = new JMenuBar();
@@ -144,7 +150,8 @@ public class TetrisMain extends Canvas implements Runnable{
     }
 
     public void init() {
-        this.addKeyListener(new Controller(this));
+        control = new Controller(this);
+        this.addKeyListener(control);
         requestFocus();
         try {
             tetrisBlocks = ImageLoader.loadImage("tetris.jpg", 25);
@@ -156,12 +163,13 @@ public class TetrisMain extends Canvas implements Runnable{
 
 
     public void update() {
+        System.out.println(control.left + " : " + control.right + " : " + control.down + " : " + control.rotate + " : " + control.pause);
 
     }
 
 
     public void render(Graphics2D g) {
-        g.setColor(Color.GREEN);  // change board background color
+        g.setColor(Color.BLACK);  // change board background color
         g.fillRect(0, 0, WIDTH, HEIGHT);
         g.setColor(Color.WHITE);
         g.setFont(new Font("Calibri", Font.PLAIN, 20));
