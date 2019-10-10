@@ -118,6 +118,8 @@ public class Config {
             String value = entry[1];
             values.put(key, value);
         }
+        s.close();
+
         if (values.size() != 5) {
             System.out.println("Config is not correct, saving defaults");
             saveConfig();
@@ -126,7 +128,7 @@ public class Config {
         if (!values.containsKey("left") || !values.containsKey("right") || !values.containsKey("rotate")
                 || !values.containsKey("down") || !values.containsKey("pause")){
         System.out.println("Wrong names, saving default names");
-        saveConfig();
+            saveConfig();
             return;
         }
         String left = values.get("left");
@@ -145,7 +147,6 @@ public class Config {
         Config.rotate = rotate;
         Config.down = down;
         Config.pause = pause;
-        s.close();
 
     }
 
