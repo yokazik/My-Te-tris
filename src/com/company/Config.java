@@ -98,7 +98,6 @@ public class Config {
 
     public static void loadConfig() throws Exception {
         File directory = new File(getDefaultDirectory(),"/Tetris");
-        System.out.println("load conf");
         if (!directory.exists()) {
             directory.mkdirs();
         }
