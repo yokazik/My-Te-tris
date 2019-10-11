@@ -31,13 +31,23 @@ public class TetrisGrid {
 
         grid[0][0] = 0;
         grid[0][1] = 1;
+        grid[2][0] = 2;
+        grid[2][1] = 3;
+        grid[4][0] = 4;
+        grid[4][1] = 5;
+        grid[6][0] = 0;
+        grid[6][1] = 0;
 
         for (int x = 0; x < this.width; x++)
         {
             grid[1][x] = 0;
+            grid[3][x] = 1;
+            grid[5][x] = 2;
+
         }
-        removeRow(1);
-        grid[0][0] = 1;
+        int rowsRemoved = checkForRemove();
+        System.out.println("Removed " + rowsRemoved + " rows");
+        grid[0][0] = 2;
         tetrisBlocks = blocks;
 
     }
@@ -45,6 +55,23 @@ public class TetrisGrid {
     public int checkForRemove()
     {
         int rowsRemoved = 0;
+        for (int y = 0; y < height; y++)
+
+            {
+                boolean isRowFull = true;
+                for (int x = 0; x < width; x++)
+                {
+                    if (grid[y][x] == -1) {
+                        isRowFull = false;
+                        break;
+                    }
+                }
+                if (isRowFull)
+                {
+                    removeRow(y);
+                    rowsRemoved++;
+                }
+            }
 
         return rowsRemoved;
     }
@@ -75,7 +102,7 @@ public class TetrisGrid {
             {
                 if (grid[y][x] != -1)
                 {
-                     g.drawImage(tetrisBlocks[grid[y][x]], widthOff + x * SQUARE_SIZE, heightOff +  y *SQUARE_SIZE, 25, 25, null); //change 1st [] 0-6 to change 1 block color
+                     g.drawImage(tetrisBlocks[grid[y][x]], widthOff + x * SQUARE_SIZE, heightOff +  y *SQUARE_SIZE, SQUARE_SIZE, SQUARE_SIZE, null); //change 1st [] 0-6 to change 1 block color
                 }
             }
 
