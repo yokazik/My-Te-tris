@@ -13,6 +13,9 @@ public class TetrisMain extends Canvas implements Runnable{
     private Image[] tetrisBlocks;
     Controller control;
 
+    private TetrisGrid tetrisGrid;
+
+
 
 
     public static void main(String[] args) {
@@ -159,11 +162,12 @@ public class TetrisMain extends Canvas implements Runnable{
             System.out.println("Error loading tetris.jpg");
             System.exit(1);
         }
+        tetrisGrid = new TetrisGrid(WIDTH, HEIGHT, 150, 150, tetrisBlocks);
     }
 
 
     public void update() {
-        System.out.println(control.left + " : " + control.right + " : " + control.down + " : " + control.rotate + " : " + control.pause);
+//        System.out.println(control.left + " : " + control.right + " : " + control.down + " : " + control.rotate + " : " + control.pause);
 
     }
 
@@ -173,9 +177,8 @@ public class TetrisMain extends Canvas implements Runnable{
         g.fillRect(0, 0, WIDTH, HEIGHT);
         g.setColor(Color.WHITE);
         g.setFont(new Font("Calibri", Font.PLAIN, 20));
-        g.drawString("My(Te)tris", 170, 50);
-        g.drawImage(tetrisBlocks[4], 100, 100, 25, 25, null); //change 1st [] 0-6 to change 1 block color
-
+        g.drawString("My(Te)tris", 150, 25);
+        tetrisGrid.drawGrid(g);
 
     }
 
