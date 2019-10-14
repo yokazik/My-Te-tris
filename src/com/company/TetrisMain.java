@@ -153,6 +153,7 @@ public class TetrisMain extends Canvas implements Runnable{
     }
 
     public void init() {
+        ShapeData d1 = ShapeData.line;
         control = new Controller(this);
         this.addKeyListener(control);
         requestFocus();
